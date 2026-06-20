@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Mic body -->
+    <path
+        android:pathData="M49,34h10c2.2,0 4,1.8 4,4v16c0,2.2 -1.8,4 -4,4h-10c-2.2,0 -4,-1.8 -4,-4v-16c0,-2.2 1.8,-4 4,-4z"
+        android:fillColor="#7C8AFF"/>
+
+    <!-- Mic grille lines -->
+    <path
+        android:pathData="M47,40h14M47,44h14M47,48h14"
+        android:strokeWidth="1"
+        android:strokeColor="#5C6ADF"
+        android:fillColor="#00000000"/>
+
+    <!-- Mic arc (pickup cup) -->
+    <path
+        android:pathData="M39,50v4c0,8.3 6.7,15 15,15s15,-6.7 15,-15v-4"
+        android:strokeWidth="3"
+        android:strokeColor="#7C8AFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Mic stand -->
+    <path
+        android:pathData="M54,69v6"
+        android:strokeWidth="3"
+        android:strokeColor="#7C8AFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Mic base -->
+    <path
+        android:pathData="M47,75h14"
+        android:strokeWidth="3"
+        android:strokeColor="#7C8AFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Sound wave left - inner -->
+    <path
+        android:pathData="M33,42c-3,4 -3,12 0,16"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4AEDC4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Sound wave left - outer -->
+    <path
+        android:pathData="M27,37c-5,7 -5,20 0,26"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4AEDC4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:alpha="0.6"/>
+
+    <!-- Sound wave right - inner -->
+    <path
+        android:pathData="M75,42c3,4 3,12 0,16"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4AEDC4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+    <!-- Sound wave right - outer -->
+    <path
+        android:pathData="M81,37c5,7 5,20 0,26"
+        android:strokeWidth="2.5"
+        android:strokeColor="#4AEDC4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:alpha="0.6"/>
+
+</vector>

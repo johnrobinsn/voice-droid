@@ -1,0 +1,12 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.cxx/
+
+# Local drafts — not for the public repo
+blog.md
+video_splash.md

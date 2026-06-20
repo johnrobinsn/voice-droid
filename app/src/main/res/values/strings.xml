@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Droid</string>
+    <string name="accessibility_service_label">Voice Droid</string>
+    <string name="accessibility_service_description">Lets Voice Droid read the screen and tap on your behalf when you give it a voice command.</string>
+</resources>
