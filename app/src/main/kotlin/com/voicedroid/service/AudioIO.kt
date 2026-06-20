@@ -176,7 +176,7 @@ class AudioIO {
         private const val TAG = "AudioIO"
         const val SAMPLE_RATE = 24_000
 
-        /** 100 ms at 24 kHz mono PCM16 = 4800 bytes. Matches voice-os BLOCK. */
+        /** 100 ms at 24 kHz mono PCM16 = 4800 bytes. */
         const val FRAME_BYTES = 4800
 
         /** Convenience: RMS amplitude in [0,1] of a PCM16 frame. */

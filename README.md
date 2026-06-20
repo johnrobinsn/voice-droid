@@ -8,9 +8,6 @@ APK, no PC needed, no cloud account beyond an OpenAI API key.
 - **Hands:** Android `AccessibilityService` — taps, scrolls, gestures, screen reads, native screenshots.
 - **Glue:** a foreground service that owns the mic, the speaker, the WebRTC peer connection, and a sideband WebSocket for large payloads (images).
 
-Sister project to [voice-os](https://github.com/per-simmons/voice-os) (the Mac voice loop), with
-the same tool-call pattern but Android-native and vision-capable.
-
 ---
 
 ## Build & install
