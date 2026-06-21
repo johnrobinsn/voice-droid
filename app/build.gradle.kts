@@ -27,9 +27,16 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
+            // Sign release with the debug keystore so the APK can be sideloaded
+            // without a separate signing setup. Swap in a real keystore here if
+            // you ever want to ship via Play Store.
+            signingConfig = signingConfigs.getByName("debug")
         }
         debug {
             isMinifyEnabled = false
+            // Coexist with the release build on the same device.
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
         }
     }
 
