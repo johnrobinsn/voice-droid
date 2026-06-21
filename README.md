@@ -10,7 +10,19 @@ APK, no PC needed, no cloud account beyond an OpenAI API key.
 
 ---
 
-## Build & install
+## Install (prebuilt APK)
+
+Grab the latest release: **[voice-droid-v0.1.apk](https://github.com/johnrobinsn/voice-droid/releases/latest)** (or browse [all releases](https://github.com/johnrobinsn/voice-droid/releases)).
+
+```bash
+adb install -r voice-droid-v0.1.apk
+```
+
+Or transfer it to the phone and tap to install. Signed with the debug keystore so it sideloads without further setup.
+
+---
+
+## Build from source
 
 ```bash
 ./gradlew assembleDebug
@@ -19,6 +31,10 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 Requires Android 10+ (API 29). Targets API 34. Built with Kotlin 2.0 / Compose
 Material 3 / AGP 8.7 / Gradle 8.14.
+
+Both `assembleDebug` and `assembleRelease` produce installable APKs; the debug
+build uses `applicationIdSuffix .debug` so it sits alongside the release on the
+same device, with a red mic icon as a visual badge.
 
 ---
 
