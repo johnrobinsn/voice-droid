@@ -12,13 +12,18 @@ APK, no PC needed, no cloud account beyond an OpenAI API key.
 
 ## Install (prebuilt APK)
 
-Grab the latest release: **[voice-droid-v0.1.apk](https://github.com/johnrobinsn/voice-droid/releases/latest)** (or browse [all releases](https://github.com/johnrobinsn/voice-droid/releases)).
+**Not on the Play Store** — voice-droid is sideload-only. Grab the latest APK from the GitHub Releases page:
+
+**Download: [voice-droid-v0.1.apk](https://github.com/johnrobinsn/voice-droid/releases/latest)** (or browse [all releases](https://github.com/johnrobinsn/voice-droid/releases)).
+
+Two ways to install:
 
 ```bash
+# Via adb
 adb install -r voice-droid-v0.1.apk
 ```
 
-Or transfer it to the phone and tap to install. Signed with the debug keystore so it sideloads without further setup.
+Or transfer the APK to the phone (Drive, email, USB) and tap it in your file manager — Android will prompt you to allow install-from-unknown-sources for that app. Signed with the debug keystore so it sideloads without further setup.
 
 ---
 
